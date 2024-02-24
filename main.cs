@@ -12,7 +12,7 @@ class Program
 
         if(!int.TryParse(PosNum, out number) || number < 0)
         {
-            Console.WriteLine("Invalid Input. Please enter a non-negative number.");
+            Console.WriteLine($"Invalid Input: {PosNum}. Please enter a non-negative number.");
             continue;
         }
         else if (number == 0)
